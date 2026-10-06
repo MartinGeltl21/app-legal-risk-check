@@ -1,0 +1,6 @@
+interface:
+  display_name: "App Legal Risk Check"
+  short_description: "Review six app legal risks and verify technical fixes"
+  default_prompt: "Use $app-legal-risk-check to assess all six legal risk areas in this app and implement applicable technical fixes."
+policy:
+  allow_implicit_invocation: true
